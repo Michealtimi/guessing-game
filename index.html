@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Guessing Game</title>
+  </head>
+  <body>
+    <div
+      class="border p-5 w-full max-w-lg mx-auto mt-20 items-center flex flex-col gap-5"
+    >
+      <p class="text-4xl">Guessing Game</p>
+      <div class="">
+        <label for="age-of-man">Enter Man's Age</label>
+        <input
+          class="outline rounded w-full"
+          type="text"
+          id="age-of-Man"
+        />
+      </div>
+      <button onclick="sayHelloWorld()">Submit</button>
+      <p id="message"></p>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>
